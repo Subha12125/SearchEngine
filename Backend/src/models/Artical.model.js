@@ -15,7 +15,7 @@ const articalSchema = new mongoose.Schema({
     },
     category: {
         type: String,
-        default: null
+        default: "General"
     }
 })
 

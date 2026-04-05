@@ -2,6 +2,9 @@ const express = require('express')
 const app = express()
 const port = process.env.PORT || 8000;
 const searchRouter = require('./src/routes/search.route');
+const connectDB = require('./src/db/connect.db');
+
+connectDB();
 
 app.use(searchRouter);
 
