@@ -23,31 +23,6 @@ A simple **Node.js + MongoDB based search engine** that uses an **inverted index
 
 ---
 
-## 📂 Project Structure
-
-```
-SearchEngine-Trial/
-│
-├── db/
-│   └── connect.db.js        # MongoDB connection
-│
-├── models/
-│   ├── Artical.model.js     # Article schema
-│   └── Index.model.js       # Inverted index schema
-│
-├── controllers/
-│   └── search.controller.js # Search logic
-│
-├── scripts/
-│   └── buildIndex.js        # Index builder script
-│
-├── .env
-├── package.json
-└── README.md
-```
-
----
-
 ## ⚙️ How It Works
 
 ### 1️⃣ Indexing (buildIndex.js)
